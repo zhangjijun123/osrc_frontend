@@ -58,36 +58,34 @@ export default class MyMenu extends Component {
         {
           id:'001',
           iconImg:home,
-          linkTitle:'Project',
-          path:'/Project'
+          linkTitle:'Service',
+          path:'/Service'
         },
         {
           id:'002',
           iconImg:home,
-          linkTitle:'CI',
-          path:'/CI'
+          linkTitle:'User',
+          path:'/User'
         },
         {
           id:'003',
           iconImg:home,
-          linkTitle:'APP',
-          path:'/APP'
+          linkTitle:'Team',
+          path:'/Team'
         },
         {
           id:'004',
           iconImg:home,
-          linkTitle:'RT',
-          path:'/RT'
+          linkTitle:'Topic',
+          path:'/Topic'
         },
       ]
     };
   }
   render() {
-    let {menuItemDashboardArr} = this.state;
-    let {menuItemRelatedArr} = this.state;
-    let {menuItemPageArr} = this.state;
+    let {menuItemDashboardArr,menuItemRelatedArr,menuItemPageArr} = this.state;
     return (
-      <Box height='100%'>
+      <Box width='100%'>
         <Flex>
           <Center as='button' w='30px' h='30px' borderRadius='8px' bg='white' marginRight='10px'>
             <ArrowBackIcon/>

@@ -16,7 +16,7 @@ export default class Header extends Component {
   render() {
     return (
     <Box
-      h="40px"
+      h="30px"
       w='100%'
       display='flex'
       alignItems='center'
@@ -26,9 +26,6 @@ export default class Header extends Component {
       <Breadcrumb>
         <BreadcrumbItem>
           <BreadcrumbLink href='#'>Dashboard</BreadcrumbLink>
-        </BreadcrumbItem>
-        <BreadcrumbItem>
-          <BreadcrumbLink href='#'>App</BreadcrumbLink>
         </BreadcrumbItem>
       </Breadcrumb>
       <InputGroup size='sm' w="40%">
