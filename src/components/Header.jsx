@@ -42,14 +42,14 @@ export default class Header extends Component {
           pointerEvents='none'
           children={<SearchIcon color='gray.300' />}
         />
-        <Input placeholder='Search...' />
+        <Input bg='white' borderRadius={10} placeholder='Search...' />
       </InputGroup>
       <Box 
         display='flex'
         alignItems='center'
       >
         <Flex alignItems='center' mr='23px'>
-          <Image w='12px' h='12px' mr='4px' src={avatar}/>
+          <Image w='12px' h='12px' mr='6px' src={avatar}/>
           <Text color='gray.500' fontSize={12} fontFamily='Helvetica' mr='6px'>Admin</Text>
           <Image w='16px' h='16px' mr='4px' src={down}/>
         </Flex>

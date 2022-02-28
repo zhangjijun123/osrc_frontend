@@ -100,7 +100,7 @@ export default class MyMenu extends Component {
   render() {
     let {menuItemDashboardArr,menuItemRelatedArr,menuItemPageArr} = this.state;
     return (
-      <Box width='100%'>
+      <Box width='191px'>
         <Flex>
           <Center as='button' w='30px' h='30px' borderRadius='8px' bg='white' marginRight='10px'>
             <ArrowBackIcon/>
