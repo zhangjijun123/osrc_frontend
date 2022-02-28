@@ -9,6 +9,15 @@ import {
 import { ArrowBackIcon } from '@chakra-ui/icons';
 import monkey from "../static/images/monkey.png";
 import home from "../static/images/defaulthome.png";
+import pro from "../static/images/defaultpro.png" 
+import ciImg from "../static/images/defaultci.png"  
+import appImg from "../static/images/defaultci.png"  
+import pagesImg from "../static/images/defaultpages.png"  
+import wikiImg from "../static/images/sharpwiki.png"  
+import serviceImg from "../static/images/sharpservice.png"  
+import userImg from "../static/images/defaultuser.png"  
+import teamImg from "../static/images/defaultteam.png"  
+import topicImg from "../static/images/defaulttopic.png"  
 import MyMenuItem from "./MyMenuItem";
 export default class MyMenu extends Component {
   constructor(props) {
@@ -25,19 +34,19 @@ export default class MyMenu extends Component {
       menuItemRelatedArr:[
         {
           id:'001',
-          iconImg:home,
+          iconImg:pro,
           linkTitle:'Project',
           path:'/Project'
         },
         {
           id:'002',
-          iconImg:home,
+          iconImg:ciImg,
           linkTitle:'CI',
           path:'/CI'
         },
         {
           id:'003',
-          iconImg:home,
+          iconImg:appImg,
           linkTitle:'APP',
           path:'/APP'
         },
@@ -49,33 +58,39 @@ export default class MyMenu extends Component {
         },
         {
           id:'005',
-          iconImg:home,
+          iconImg:pagesImg,
           linkTitle:'Pages',
           path:'/Pages'
+        },
+        {
+          id:'006',
+          iconImg:wikiImg,
+          linkTitle:'Wiki',
+          path:'/Wiki'
         }
       ],
       menuItemPageArr:[
         {
           id:'001',
-          iconImg:home,
+          iconImg:serviceImg,
           linkTitle:'Service',
           path:'/Service'
         },
         {
           id:'002',
-          iconImg:home,
+          iconImg:userImg,
           linkTitle:'User',
           path:'/User'
         },
         {
           id:'003',
-          iconImg:home,
+          iconImg:teamImg,
           linkTitle:'Team',
           path:'/Team'
         },
         {
           id:'004',
-          iconImg:home,
+          iconImg:topicImg,
           linkTitle:'Topic',
           path:'/Topic'
         },

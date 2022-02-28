@@ -11,8 +11,8 @@ export default class MyMenuItem extends Component {
     let {itemobj} = this.props;
     return (
       <NavLink to={itemobj.path}>
-        <Flex alignItems='center' boxSizing='border-box' width='100%' height='56px' marginBottom='20px'>
-          <Center w='30px' h='30px' bg='#FEEBCB' borderRadius={8} marginLeft='30px' marginRight='12px'>
+        <Flex alignItems='center' width='100%' height='56px' marginBottom='20px'>
+          <Center w='30px' h='30px' bgColor='#FEEBCB' borderRadius={8} marginLeft='30px' marginRight='12px'>
             <Image w='16px' src={itemobj.iconImg} alt='home'/> 
           </Center>
           <Text color='rgba(0, 0, 0, 0.36)' fontSize={12}>

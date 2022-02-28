@@ -29,14 +29,15 @@ function App() {
           </Box>
           <Box flex="1" display='flex' flexDirection='column' height='100%' boxSizing='border-box' p='33px 18px 0px 41px'>
             <Header></Header>
-            <Box flex='1' overflowY='auto' p='10px' boxSizing='border-box'>
+            <Box flex='1' overflowY='auto' boxSizing='border-box'>
               <Routes>
                 <Route path="/Dashboard" element={<Dashboard></Dashboard>}/>
                 <Route path="/Project" element={<Deving></Deving>}/>
                 <Route path="/CI" element={<Deving></Deving>}/>
                 <Route path="/APP" element={<Deving></Deving>}/>
                 <Route path="/RT" element={<Deving></Deving>}/>
-                <Route path="/Pages" element={<Deving></Deving>}/>
+                <Route path="/Pages" element={<Deving></Deving>}/> 
+                <Route path="/Wiki" element={<Deving></Deving>}/> 
                 <Route path="/Service" element={<Deving></Deving>}/>
                 <Route path="/User" element={<Deving></Deving>}/>
                 <Route path="/Team" element={<Deving></Deving>}/>
