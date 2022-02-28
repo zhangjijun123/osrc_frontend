@@ -24,12 +24,12 @@ function App() {
   return (
       <ChakraProvider theme={theme}>
         <Flex width='100%' height='100vh' bg='#F7FAFC'>
-          <Box overflowY='auto' width="270px" height="100%" boxSizing='border-box' p='40px 19px 40px 24px'>
+          <Box overflowY='auto' height="100%" boxSizing='border-box' p='40px 19px 40px 24px'>
             <MyMenu></MyMenu>
           </Box>
-          <Box flex="1" display='flex' flexDirection='column' height='100%' boxSizing='border-box' p='33px 18px 0px 41px'>
+          <Box flex="1" display='flex' flexDirection='column' height='100%' boxSizing='border-box' p='33px 18px 0px 21px'>
             <Header></Header>
-            <Box flex='1' overflowY='auto' boxSizing='border-box'>
+            <Box flex='1' overflowY='auto' boxSizing='border-box' paddingRight='10px' >
               <Routes>
                 <Route path="/Dashboard" element={<Dashboard></Dashboard>}/>
                 <Route path="/Project" element={<Deving></Deving>}/>
